@@ -1,8 +1,9 @@
-##jQuery EzBox (a simple overlay) 
----------------------------------
+jQuery EzBox (a simple overlay) 
+_______________________________
 
 
 Instructions:
+------------
 
 1. Add the ezbox.css file, ezbox.js, and create a <div> tag, or any other block element with a class name of 'ezbox' like so.
   <div class="ezbox"> </div>
