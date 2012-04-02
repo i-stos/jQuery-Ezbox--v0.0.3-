@@ -19,15 +19,8 @@ Instructions:
 
 
 3. Call Ezbox with the desired settings like so:
-
    $('.ezbox').EzBox({
-    overlayBg: "#262626",
-	  scrollAllowed: true
+      overlayBg: "#EDEDED", //overlay background color
+      overlayOpacity: 0.58, //overlay background opacity
+      scrollAllowed: true //when true the overlay scrolls as the user scrolls, when false it doesn't
    });
-
-These are the available settings:
-  var settings = {
-	  overlayBg: "#EDEDED", //overlay background color
-		overlayOpacity: 0.58, //overlay background opacity
-		scrollAllowed: true //when true the overlay scrolls as the user scrolls, when false it doesn't
-	};
