@@ -16,12 +16,12 @@
       margin: 0 auto;
       width: 880px;
     }
-    h1 { font-size: 3.8em; color: #4183C4; margin-bottom: 3px; }
+    h1 { font-size: 3.8em; color: #444; margin-bottom: 3px; }
     h1 .small { font-size: 0.4em; }
-    h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #4183C4; }
-    h3 { text-align: center; color: #4183C4; }
-    a { color: blue; }
+    h1 a { text-decoration: none; }
+    h2 { font-size: 1.5em; color: #444; }
+    h3 { text-align: center; color: #444; }
+    a { color: #4183C4; }
     .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
     .download { float: right; }
     pre { background: #000; color: #fff; padding: 15px;}
@@ -29,40 +29,28 @@
     .footer { text-align:center; padding-top:30px; font-style: italic; }
   </style>
 
-<link rel="stylesheet" type="text/css" href="ezbox.css" />
+  <link rel="stylesheet" type="text/css" href="https://github.com/vasilionjea/Ezbox_v0.0.3/ezbox.css" />
 
-<script type="text/javascript" src="jquery.min.v1.7.1.js"></script>
-<script type="text/javascript" src="ezbox.js"></script>
+  <script type="text/javascript" src="https://github.com/vasilionjea/Ezbox_v0.0.3/jquery.min.v1.7.1.js"></script>
+  <script type="text/javascript" src="https://github.com/vasilionjea/Ezbox_v0.0.3/ezbox.js"></script>
 </head>
 
 <body>
 <a href="https://github.com/vasilionjea/Ezbox_v0.0.3"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
 
-  <div id="container">
+<div id="container">
 
-    <div class="download">
-      <a href="https://github.com/vasilionjea/Ezbox_v0.0.3/zipball/master">
-        <img border="0" width="90" src="https://github.com/images/modules/download/zip.png"></a>
-      <a href="https://github.com/vasilionjea/Ezbox_v0.0.3/tarball/master">
-        <img border="0" width="90" src="https://github.com/images/modules/download/tar.png"></a>
-    </div>
+  <div class="download">
+    <a href="https://github.com/vasilionjea/Ezbox_v0.0.3/zipball/master"><img border="0" width="90" src="https://github.com/images/modules/download/zip.png"></a>
+    <a href="https://github.com/vasilionjea/Ezbox_v0.0.3/tarball/master"><img border="0" width="90" src="https://github.com/images/modules/download/tar.png"></a>
+  </div>
 
-    <h1><a href="https://github.com/vasilionjea/Ezbox_v0.0.3">Ezbox_v0.0.3</a>
-      <span class="small">by <a href="https://github.com/vasilionjea">Billy Onjea</a></span></h1>
-
-    <div class="description">
-      A simple jQuery overlay
-    </div>
+  <h1><a href="https://github.com/vasilionjea/Ezbox_v0.0.3">Ezbox_v0.0.3</a>
+  <span class="small">A simple jQuery overlay</span></h1>
 
     
-
-    
-<h2>Files Required</h2>
-<pre>
-  <link rel="stylesheet" type="text/css" href="ezbox.css" />
-  <script type="text/javascript" src="jquery.min.v1.7.1.js"></script>
-  <script type="text/javascript" src="ezbox.js"></script>
-</pre>    
+<h2>Required Files</h2>
+<pre>ezbox.css, jquery.min.v1.7.1.js, ezbox.js</pre>    
 
     
 <h2>Install</h2>
@@ -72,7 +60,7 @@
 </pre>
 
 <p>2. Inside this block element insert your thumbnail images and the links that point to the larger images in the following format:</p>
-<pre><code>
+<pre>
  <div class="ezbox">
      <a href="images/ezimage1.jpg"><img src="images/ezimage1.jpg" title="Image 1 description" width="138" height="100" /></a>
      <a href="images/ezimage2.jpg"><img src="images/ezimage2.jpg" title="Image 2 description" width="138" height="100" /></a>
@@ -81,7 +69,7 @@
      <a href="images/ezimage5.jpg"><img src="images/ezimage5.jpg" title="Image 5 description" width="138" height="100" /></a>
      <a href="images/ezimage6.jpg"><img src="images/ezimage6.jpg" title="Image 6 description" width="138" height="100" /></a>
   </div>
-</code></pre>
+</pre>
 
 <p>3. Call Ezbox with the desired settings like so:</p>
 <pre>
@@ -91,7 +79,6 @@
       scrollAllowed: true //when true the overlay scrolls as the user scrolls, when false it doesn't
   });
 </pre>
-
     
 <h2>License</h2>
 <p>GPL version-2 or higher</p>
