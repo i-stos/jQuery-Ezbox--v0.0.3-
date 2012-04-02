@@ -1,8 +1,8 @@
 /**
- * name:            Ezbox - A simple lightbox - no slideshow, just a lightbox
+ * name:            Ezbox
  * version:         0.0.3
  * author:          Billy Onjea  (istocode.com)
- * description:     A light version of a Lightbox. It doesn't inlcude prev/next slideshow, just the lightbox
+ * description:     A simple overlay - no slideshow, just an overlay
  * homepage:        http://istocode.com/shared/javascript/jquery/ezbox
  * files:           ezbox.js, ezbox.css, jquery.v1.7.1 or higher
  * license:         GNU GPLv2 or higher
@@ -120,15 +120,11 @@
 						});
 					 }
 
-					 /* Expand div#image-details width to div#theImage's width and add some text */
-					 /*$('#image-details').width($('#theImage').width());*/
-
 					 /* Calculate center position */
 					 positionBox();
 				  });
 
-				  /* redundantly repeating this step for IE (a different approach might work)
-				  $('#image-details').width($('#theImage').width()).text(link.find('img').attr('title') + " " + link.attr('href') );*/
+				  /* Use the title attribute for the overlay description */
 				  $('#image-details').text(link.find('img').attr('title'));
 
 				  /* Remove EzBox when the following elements are cliked */
