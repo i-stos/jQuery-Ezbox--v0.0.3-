@@ -1,0 +1,90 @@
+body {
+	padding: 40px;
+	background: #dbdbdb;
+}
+div#pageBody {
+	margin: 0 auto;
+	border: 1px solid #888;
+	width: 960px;
+	padding: 10px 20px 34px 20px;
+	overflow: hidden;
+	background: #fdfdfd;
+}
+.ezbox {
+	padding: 12px 10px 9px 12px;
+	border: 1px solid #e6e6e6;
+	background: #f4f4f4;
+}
+.ezbox a img {
+	margin: 0 2px;
+	border: 1px solid #bdbdbd;
+	padding: 4px;
+	overflow: hidden;
+	background: #fcfcfc;
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = =
+	~ EzBox Styles
+	= = = = = = = = = = = = = = = = = = = = = = = = = */
+.overlayCls {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 800;
+	background: #1a1a1a;
+	overflow: hidden;
+	width: 100%; /* Defend against IE */
+	height: 100%;
+}
+.ezboxView {
+	z-index: 1000;
+	position: absolute;
+	top: 10%;
+	left: 0;
+	border: 8px solid #141414;
+	background: #141414;
+}
+.ezboxView a img {
+	border: none;
+}
+.ezboxView #outer-image-wrap {
+	overflow: hidden;
+}
+.ezboxView #img-wrap img {
+	position: relative;
+	width: auto;
+	height: auto;
+	display: block;
+}
+.ezboxView #outer-image-wrap, .ezboxView #outer-data-wrap {
+	position: relative;
+	top: 0;
+	left: 0;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.ezboxView #image-details {
+	padding: 8px 2px;
+	color: #FCFCFC;
+	font-weight: 400;
+	text-decoration: none;
+}
+.ezboxView #bottom-nav {
+	overflow: hidden;
+	padding: 10px 0px 0px 2px;
+	clear: both;
+}
+.ezboxView a#closeIcon {
+	color: #b00;
+	font-size: 13px;
+	font-weight: 600;
+	padding: 2px;
+	text-transform: uppercase;
+}
+.ezboxView a#closeIcon:hover {
+	color: #921;
+}
+.ezboxView a#closeIcon img {}
+.ezimages img{
+	border: 4px solid #242424;
+}
