@@ -1,0 +1,32 @@
+jQuery EzBox (a simple overlay) 
+
+
+Instructions:
+
+1. Add the ezbox.css file, ezbox.js, and create a <div> tag, or any other block element with a class name of 'ezbox' like so.
+  <div class="ezbox"> </div>
+
+2. Inside this block element insert your thumbnail images and the links that point to the larger images in the following format:
+  <div class="ezbox">
+		<a href="images/ezimage1.jpg"><img src="images/ezimage1.jpg" title="Image 1 description" width="138" height="100" /></a>
+		<a href="images/ezimage2.jpg"><img src="images/ezimage2.jpg" title="Image 2 description" width="138" height="100" /></a>
+		<a href="images/ezimage3.jpg"><img src="images/ezimage3.jpg" title="Image 3 description" width="138" height="100" /></a>
+		<a href="images/ezimage4.jpg"><img src="images/ezimage4.jpg" title="Image 4 description" width="138" height="100" /></a>
+		<a href="images/ezimage5.jpg"><img src="images/ezimage5.jpg" title="Image 5 description" width="138" height="100" /></a>
+		<a href="images/ezimage6.jpg"><img src="images/ezimage6.jpg" title="Image 6 description" width="138" height="100" /></a>
+	</div>
+
+
+3. Call Ezbox with the desired settings like so:
+
+   $('.ezbox').EzBox({
+    overlayBg: "#262626",
+	  scrollAllowed: true
+   });
+
+These are the available settings:
+  var settings = {
+	  overlayBg: "#EDEDED", //overlay background color
+		overlayOpacity: 0.58, //overlay background opacity
+		scrollAllowed: true //when true the overlay scrolls as the user scrolls, when false it doesn't
+	};
