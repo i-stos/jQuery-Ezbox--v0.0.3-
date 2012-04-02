@@ -8,20 +8,20 @@
   <style type="text/css">
     body {
       margin-top: 1.0em;
-      background-color: #2f97ce;
+      background-color: #f6f6f6;
       font-family: Helvetica, Arial, FreeSans, san-serif;
-      color: #000000;
+      color: #333;
     }
     #container {
       margin: 0 auto;
-      width: 700px;
+      width: 880px;
     }
-    h1 { font-size: 3.8em; color: #d06831; margin-bottom: 3px; }
+    h1 { font-size: 3.8em; color: #4183C4; margin-bottom: 3px; }
     h1 .small { font-size: 0.4em; }
     h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #fcfcfc; }
-    h3 { text-align: center; color: #fcfcfc; }
-    a { color: #659; }
+    h2 { font-size: 1.5em; color: #4183C4; }
+    h3 { text-align: center; color: #4183C4; }
+    a { color: blue; }
     .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
     .download { float: right; }
     pre { background: #000; color: #fff; padding: 15px;}
@@ -31,7 +31,7 @@
 </head>
 
 <body>
-  <a href="https://github.com/vasilionjea/Ezbox_v0.0.3"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+<a href="https://github.com/vasilionjea/Ezbox_v0.0.3"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
 
   <div id="container">
 
@@ -43,7 +43,7 @@
     </div>
 
     <h1><a href="https://github.com/vasilionjea/Ezbox_v0.0.3">Ezbox_v0.0.3</a>
-      <span class="small">by <a href="https://github.com/vasilionjea">vasilionjea</a></span></h1>
+      <span class="small">by <a href="https://github.com/vasilionjea">Billy Onjea</a></span></h1>
 
     <div class="description">
       A simple jQuery overlay
@@ -52,18 +52,19 @@
     
 
     
-      <h2>Dependencies</h2>
-      <p>ezbox.css
-jquery.min.v1.7.1.js
-</p>
-    
+<h2>Dependencies</h2>
+<p>ezbox.css, jquery.min.v1.7.1.js </p>    
 
     
-      <h2>Install</h2>
-      <p>1. Add the ezbox.css file, ezbox.js, and create a <div> tag, or any other block element with a class name of 'ezbox' like so:  <div class="ezbox"> </div>
+<h2>Install</h2>
+<p>1. Add the ezbox.css file, ezbox.js, and create a <div> tag, or any other block element with a class name of 'ezbox' like so:</p>  
+<pre>
+  <div class="ezbox"> </div>
+</pre>
 
-2. Inside this block element insert your thumbnail images and the links that point to the larger images in the following format:
-  <div class="ezbox">
+<p>2. Inside this block element insert your thumbnail images and the links that point to the larger images in the following format:</p>
+<pre>
+ <div class="ezbox">
      <a href="images/ezimage1.jpg"><img src="images/ezimage1.jpg" title="Image 1 description" width="138" height="100" /></a>
      <a href="images/ezimage2.jpg"><img src="images/ezimage2.jpg" title="Image 2 description" width="138" height="100" /></a>
      <a href="images/ezimage3.jpg"><img src="images/ezimage3.jpg" title="Image 3 description" width="138" height="100" /></a>
@@ -71,33 +72,27 @@ jquery.min.v1.7.1.js
      <a href="images/ezimage5.jpg"><img src="images/ezimage5.jpg" title="Image 5 description" width="138" height="100" /></a>
      <a href="images/ezimage6.jpg"><img src="images/ezimage6.jpg" title="Image 6 description" width="138" height="100" /></a>
   </div>
+</pre>
 
-3. Call Ezbox with the desired settings like so:
+<p>3. Call Ezbox with the desired settings like so:</p>
+<pre>
   $('.ezbox').EzBox({
       overlayBg: "#262626",  //overlay background color
       overlayOpacity: 0.58, //overlay background opacity
       scrollAllowed: true //when true the overlay scrolls as the user scrolls, when false it doesn't
-  });</p>
-    
+  });
+</pre>
 
     
-      <h2>License</h2>
-      <p>GNU GPLv2 or higher</p>
+<h2>License</h2>
+<p>GPL version-2 or higher</p>
+       
+<h2>Authors</h2>
+<p>Billy Onjea (vasili.onjea@gmail.com)</p>
+<br/>      
     
-
     
-      <h2>Authors</h2>
-      <p>Billy Onjea (vasili.onjea@gmail.com)
-<br/>      </p>
-    
-
-    
-      <h2>Contact</h2>
-      <p>Billy Onjea (vasili.onjea@gmail.com)
-<br/>      </p>
-    
-
-    <h2>Download</h2>
+<h2>Download</h2>
     <p>
       You can download this project in either
       <a href="https://github.com/vasilionjea/Ezbox_v0.0.3/zipball/master">zip</a> or
